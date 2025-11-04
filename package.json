@@ -1,0 +1,25 @@
+{
+  "name": "ccs-caal-syntax",
+  "displayName": "ccs-caal-syntax",
+  "description": "CCS Syntax Highlighting (based on CAAL style CCS)",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "caal-ccs",
+      "aliases": ["CCS", "caal-ccs"],
+      "extensions": [".ccs"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "caal-ccs",
+      "scopeName": "source.caal-ccs",
+      "path": "./syntaxes/caal-ccs.tmLanguage.json"
+    }]
+  }
+}
