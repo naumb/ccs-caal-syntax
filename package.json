@@ -10,16 +10,28 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "caal-ccs",
-      "aliases": ["CCS", "caal-ccs"],
-      "extensions": [".ccs"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "caal-ccs",
-      "scopeName": "source.caal-ccs",
-      "path": "./syntaxes/caal-ccs.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "caal-ccs",
+        "aliases": [
+          "CCS",
+          "caal-ccs"
+        ],
+        "extensions": [
+          ".ccs"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "caal-ccs",
+        "scopeName": "source.caal-ccs",
+        "path": "./syntaxes/caal-ccs.tmLanguage.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "js-yaml": "^4.1.0"
   }
 }
