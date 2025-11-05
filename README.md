@@ -1,6 +1,6 @@
 # CCS Syntax Highlighting
 
-This extention provides syntax highlighting for [CAAL](caal.cs.aau.dk)-like CCS.
+This extention provides syntax highlighting for [CAAL](https://caal.cs.aau.dk)-like CCS.
 
 ## Features
 

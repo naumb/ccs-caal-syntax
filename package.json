@@ -3,6 +3,7 @@
   "displayName": "ccs-caal-syntax",
   "description": "CCS Syntax Highlighting (based on CAAL style CCS)",
   "version": "0.0.1",
+  "repository": "https://github.com/naumb/ccs-caal-syntax",
   "engines": {
     "vscode": "^1.105.0"
   },
