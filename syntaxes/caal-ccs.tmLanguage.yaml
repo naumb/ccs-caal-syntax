@@ -25,7 +25,7 @@ repository:
         match: "\\\\"
       - name: keyword.operator.renaming.caal-ccs
         match: "/"
-      - match: "(set)\\s*([A-Z]\\w*)"
+      - match: "(set)\\s*([A-Z][a-zA-Z0-9_-]*)"
         captures:
           1:
             name: keyword.operator.new.set-definition.caal-ccs
@@ -34,8 +34,8 @@ repository:
   entities:
     patterns:
       - name: entity.name.class.process-name.caal-ccs
-        match: "[A-Z]\\w*"
+        match: "[A-Z][a-zA-Z0-9_-]*"
       - name: entity.name.tag.action.caal-ccs
-        match: "[a-z]\\w*"
+        match: "[a-z][a-zA-Z0-9_-]*"
       - name: constant.numeric.dual-action.caal-ccs
-        match: "\\'[a-z]\\w*"
+        match: "\\'[a-z][a-zA-Z0-9_-]*"
