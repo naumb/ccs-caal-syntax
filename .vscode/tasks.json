@@ -7,6 +7,15 @@
             "label": "Build JSON Grammar",
             "type": "shell",
             "command": "npx js-yaml syntaxes/caal-ccs.tmLanguage.yaml > syntaxes/caal-ccs.tmLanguage.json"
+        },
+        {
+            "label": "Build Extension",
+            "type":"shell",
+            "command": "vsce pack",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
