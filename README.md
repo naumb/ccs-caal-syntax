@@ -13,7 +13,7 @@ Currently, we highlight the following operators:
 - Renaming `/`
 - Action Set definitions `set`
 
-Also, processes and (dual) actions are shown.
+Also, processes (including Nil `0`) and (dual) actions are matched.
 
 ![Highlighting](example.png)
 
