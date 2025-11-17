@@ -35,9 +35,9 @@ repository:
     patterns:
       - name: entity.name.class.process-name.caal-ccs
         match: "[A-Z][a-zA-Z0-9_-]*"
-      - name: entity.name.tag.action.caal-ccs
+      - name: variable.other.readwrite.action.caal-ccs
         match: "[a-z][a-zA-Z0-9_-]*"
-      - name: constant.numeric.dual-action.caal-ccs
+      - name: variable.other.constant.dual-action.caal-ccs
         match: "\\'[a-z][a-zA-Z0-9_-]*"
       - name: constant.language.nil-process.caal-ccs
         match: "\\b0\\b"
