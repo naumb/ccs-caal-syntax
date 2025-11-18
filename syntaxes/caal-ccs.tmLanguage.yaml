@@ -28,7 +28,7 @@ repository:
       - match: "(set)\\s*([A-Z][a-zA-Z0-9_-]*)"
         captures:
           1:
-            name: keyword.operator.new.set-definition.caal-ccs
+            name: keyword.control.set-definition.caal-ccs
           2:
             name: entity.name.class.set-name.caal-ccs
   entities:
