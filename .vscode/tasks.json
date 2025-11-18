@@ -9,9 +9,9 @@
             "command": "npx js-yaml syntaxes/caal-ccs.tmLanguage.yaml > syntaxes/caal-ccs.tmLanguage.json"
         },
         {
-            "label": "Build Extension",
+            "label": "Build and Install Extension",
             "type":"shell",
-            "command": "vsce pack",
+            "command": "vsce pack && code --install-extension ccs-caal-syntax-0.0.1.vsix ",
             "group": {
                 "kind": "build",
                 "isDefault": true
