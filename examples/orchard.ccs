@@ -1,0 +1,11 @@
+CarelessMan = 'shake.(redapple.ouch.walk.CarelessMan + greenapple.ouch.walk.CarelessMan);
+CarefulMan = CarelessMan \ {ouch};
+
+AppleTree = shake.('greenapple.AppleTree + 'redapple.AppleTree);
+
+CherryTree = AppleTree[cherry/greenapple, cherry/redapple];
+
+set Events = {shake, redapple, greenapple};
+Orchard = (AppleTree | CarefulMan) \ Events;
+
+Spec = walk.Spec;
